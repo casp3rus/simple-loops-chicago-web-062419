@@ -17,9 +17,9 @@ def times_iterator(number_of_times)
 end
 
 def while_iterator(number_of_times)
-  while number_of_times < 7
+  while number < number_of_times
     puts "Welcome to Flatiron School's Web Development Course!"
-    number_of_times += 1 
+    number += 1 
   end
 end
 
